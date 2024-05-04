@@ -4,7 +4,6 @@ const { registerBook, getAllBooks, retrieveBook, removeBook, updateBook } = requ
 const router = express.Router();
 
 router.route('/').post(registerBook).get(getAllBooks);
-router.route('/:id').get(retrieveBook).put(updateBook);
-router.route('/:id').delete(removeBook);
+router.route('/:id').get(retrieveBook).put(updateBook).delete(removeBook);;
 
 module.exports = router
