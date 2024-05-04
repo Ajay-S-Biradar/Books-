@@ -9,11 +9,7 @@ This is the backend part of a book management system. It provides APIs for manag
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Features
 
@@ -29,9 +25,17 @@ This is the backend part of a book management system. It provides APIs for manag
 - Mongoose (for MongoDB)
 - Other libraries like async-express-handler are used
 
+
+## API Endpoints
+- POST /api/books: Create a new book.
+- GET /api/books/:id: Get details of a book with the specified ID.
+- PUT /api/books/:id: Update details of a book with the specified ID.
+- DELETE /api/books/:id: Delete a book with the specified ID.
+
 ## Installation
 
 1. Clone the repository:
 
 ```bash
 (https://github.com/Ajay-S-Biradar/Books-.git)
+
