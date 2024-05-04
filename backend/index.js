@@ -1,14 +1,16 @@
 const express  = require('express');
 const dotenv = require('dotenv');
 const cors = require("cors");
-const bookRoutes = require('./Routes/bookRoutes')
+const bookRoutes = require('./Routes/bookRoutes');
+const connectDB = require('./config/db');
 
 dotenv.config();
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3245;
 
 app.use(express.json());
 app.use(cors());
+connectDB();
 
 app.use('/api/assistant',bookRoutes);
 
