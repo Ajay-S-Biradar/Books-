@@ -1,7 +1,5 @@
 # Book Management System - Backend
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
 ## Description
 
 This is the backend part of a book management system. It provides APIs for managing books, including CRUD operations (Create, Read, Update, Delete).
@@ -29,11 +27,11 @@ This is the backend part of a book management system. It provides APIs for manag
 - Express.js
 - MongoDB (or your preferred database)
 - Mongoose (for MongoDB)
-- Other libraries or frameworks as needed
+- Other libraries like async-express-handler are used
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/book-management-system-backend.git
+(https://github.com/Ajay-S-Biradar/Books-.git)
