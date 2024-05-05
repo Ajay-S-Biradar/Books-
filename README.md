@@ -32,6 +32,11 @@ This is the backend part of a book management system. It provides APIs for manag
 - PUT /api/books/:id: Update details of a book with the specified ID.
 - DELETE /api/books/:id: Delete a book with the specified ID.
 
+## .env file 
+MONGO_URI= mongodb+srv://sbmunnu:<Project_name>@cluster0.iz6rzlc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+PORT=3000
+
+
 ## Installation
 
 1. Clone the repository:
